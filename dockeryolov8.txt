@@ -1,0 +1,5 @@
+docker pull ultralytics/ultralytics:latest
+docker run -it --name yolov8  --ipc=host --gpus all ultralytics/ultralytics:latest /bin/bash
+docker cp C:\Users\YoloV8\Desktop\yolov8docker yolov8:/usr/src/ultralytics
+yolo detect train data=data.yaml model=yolov8n.pt epochs=10000 imgsz=640
+docker cp  yolov8:/usr/src/ultralytics C:\Users\YoloV8\Desktop\yolov8docker
