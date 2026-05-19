@@ -1,4 +1,4 @@
-markdown# 🎯 YOLOv8 影像辨識專案 (YOLOv8 Vision Project)
+🎯 YOLOv8 影像辨識專案 (YOLOv8 Vision Project)
 
 本專案基於 Ultralytics YOLOv8 模型，架設完整的電腦視覺工作流，包含資料庫準備、模型訓練、評估以及預測推論。
 
